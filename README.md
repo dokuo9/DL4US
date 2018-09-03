@@ -2,7 +2,6 @@
 # Install
     $ brew install mecab mecab-ipadic
     $ mkvirtualenv --python=/usr/bin/python3 [NAME]
-    $ pip install -r requirements.txt
 
 # train
     $ python parse --in data/raw --out data/formatted
